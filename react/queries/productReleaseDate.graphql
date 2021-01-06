@@ -1,0 +1,6 @@
+# store-block/react/queries/productReleaseData.graphql
+query productReleaseDate($slug: String) {
+  product(slug: $slug) {
+    releaseDate
+  }
+}
